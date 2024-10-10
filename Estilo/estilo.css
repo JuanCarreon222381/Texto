@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    width: 1366px;
+    height: 1800px;
+    background-image: linear-gradient(135deg,#7A6448,#CDB28A,#7A6448);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    margin: 0 auto;
+    margin: auto;
+}
+header {
+    width: 1366px;
+    height: 320px;
+    display: flex;
+    font-family: "New Amsterdam", sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #7A6448;
+    
+}
+
+nav {
+    width: 1366px;
+    height: 50px;
+    background-color: #CDB28A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+nav a {
+    color: #7A6448;
+    text-decoration: none;
+    font-family: "Matemasie", sans-serif;
+    padding: 15px;
+    transition: .5s;
+    
+}
+nav a:hover{
+    background-color:#B1BA8E;
+    transform: scale(1.2);
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    display: flex;
+    font-family: "Outfit", sans-serif;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+section .contenido1 {
+    width: 550px;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D4DDB1;
+
+}
+section .texto1 {
+    width: 500px;
+    height: 900px;
+    background-color: #B1BA8E;
+    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
+}
+section .contenido2 {
+    width: 700px;
+    height: 1100px;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D4DDB1;
+
+}
+section .texto2 {
+    width: 600px;
+    height: 550px;
+    background-color: #B1BA8E;
+    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
+}
+section .foto {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    object-fit:cover ;
+    justify-content: center;
+   
+}
+@keyframes fanimado{
+    0%{
+        background-position: 0%,50%;
+    }
+    50%{
+        background-position: 100%,50%;
+    }
+    100%{
+        background-position: 0%,50%;
+    }
+ }
+footer {
+    width: 1366px;
+    height: 320px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7A6448;
+}
